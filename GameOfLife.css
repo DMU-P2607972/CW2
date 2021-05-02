@@ -120,6 +120,8 @@ p {
     width: auto;
     text-align: center;
     text-decoration: none;
+    -webkit-padding-before: 5px;
+    -webkit-padding-after: 5px;
 }
 
 .icons:hover {
