@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="GameOfLife.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <nav> <!-- navigation bar including hyperlinks to other pages of the websites -->
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="GamePage.html">Game</a></li>
+            <li><a href="ContactPage.html">Contact Us</a></li>
+            <li id="logo"><img src="logo.png" alt="logo"></li>
+        </ul>
+    </nav>
+
+    <div class="rules"> <!-- separate sectioned element containing main body of text and video-->
+        <h1>Welcome!</h1>
+        <h3>Here are some Rules:</h3>
+        <p>Conways Game of Life is a simulation of evolution which depends on how it started, what the initial amount of
+         alive cells was and their positioning.
+            <br><br>The rules are as follows:</p><br><br> <!-- <br> tags are used in order to section the text with <p>
+            tags, so that text looks clear and ordered-->
+
+        <li>if a <b>living</b> cell has more than 3 neighbour -> it <b>dies</b></li><br>
+        <li>if a <b>living</b> cell has less than 3 neighbour -> it <b>dies</b></li><br>
+        <li>if a <b>dead</b> cell has exactly 3 neighbour -> it comes <b>alive</b></li><br>
+        <li>in other cases, the cell remains in its current state</li><br>
+
+        <p>Alternatively, you can watch a video tutorial below explaining how it works using visual examples.</p>
+
+        <video controls="controls"> <!--includes 2 different types of video format in order to have at least one working
+         in any browser-->
+            <source src="MM_vid.mp4" type="video/mp4">
+            <source src="MM_video.avi" type="video/avi">
+
+            Your browser does not support the video element. <!--This message shows when neither of the formats work-->
+        </video>
+
+        <a href="https://levelup.gitconnected.com/conways-game-of-life-in-javascript-9498ae1958fe" id="ex-link">
+            Click here to read more about the Conway's Game of Life</a><br><br> <!--a link to an external website
+            from which the information was taken for this project idea-->
+        <p>Enjoy your simulation in the Game tab!</p>
+    </div>
+
+    <footer>
+        Website created by student at DMU, Galina Larina. P2607972 <!--Footer is containing information about the
+        creator and links to social media websites-->
+        <a href="https://www.facebook.com/" class="icons"><img class="icons" src="fb.png" alt="facebook icon"></a>
+        <a href="https://www.twitter.com/" class="icons"><img class="icons" src="twitter-link.jpeg" alt="twitter icon"></a>
+        <a href="https://www.instagram.com/" class="icons"><img class="icons" src="insta.png" alt="instagram icon"></a>
+        <!-- height and width are  -->
+    </footer>
+
+</body>
+
+</html>
