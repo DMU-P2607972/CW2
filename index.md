@@ -2,6 +2,4 @@ Hello!
 
 I am Galina (Gala) Larina and this is my github pages.
 
-Follow the link below to my coursework 2 website:
-
-https:///DMU-P2607972.github.io/CW2/HomePage.html
+[Coursework 2 website] (https:///DMU-P2607972.github.io/CW2/HomePage.html)
