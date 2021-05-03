@@ -27,7 +27,6 @@ body {
     border-radius: 15px;
     height: 650px;
     overflow: auto;
-    width: 90%;
 }
 
 textarea  {
